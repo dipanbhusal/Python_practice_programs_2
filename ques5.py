@@ -1,0 +1,12 @@
+tuple_1 = ('Dipan', 'Bhusal', 21)
+person_details = []
+person_details.append(tuple_1)
+tuple_2 = ('Madan', 'Krk', 24)
+tuple_3 = ('Ram', 'KC', 34)
+tuple_4 = ('HAri', 'BD', 20)
+person_details.append(tuple_2)
+person_details.append(tuple_3)
+person_details.append(tuple_4)
+sorted_person_details = sorted(person_details, key=lambda x: x[2] )
+print(person_details)
+print(sorted_person_details)
